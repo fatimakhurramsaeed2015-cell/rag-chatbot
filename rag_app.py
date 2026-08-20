@@ -22,7 +22,7 @@ from sentence_transformers import SentenceTransformer
 from groq import Groq
 from pypdf import PdfReader
 
-PDF_PATH = "Talent_English_4_Keybook.pdf"  # <-- change this to your PDF's filename/path
+PDF_PATH = "Talent_English_4_Keybook_compressed.pdf"  # <-- change this to your PDF's filename/path
 
 
 @st.cache_resource(show_spinner="Loading embedding model...")
